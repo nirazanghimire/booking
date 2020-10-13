@@ -1,0 +1,160 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.content { width: 80%; }
+.left, .right { width: 18%; }
+.middle { width: 64%; }
+html{
+	font-family: 'Nunito', sans-serif;
+	text-align: justify;
+}
+
+header{
+	 background-image: url(swt.jpg);
+    background-image: tours.html(swt1.jpg)
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  padding: 15px;
+}
+
+#icons{
+	padding-top:41%;
+	}
+
+.button{
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.submit{
+  background-color: #131725;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.pad{
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+.book{
+	color: #dae7ea;
+}
+
+.forms{
+	color: #96eaff;
+	padding: 10px 10px;
+}
+
+.ad{
+	text-shadow: #FC0 1px 0 10px;
+	font-family: 'Just Another Hand', cursive;
+	font-size: 400%;
+	position: absolute;
+ 	margin-top: 10%;
+ 	margin-left: 50%
+}
+.logo{
+	
+	float: left;
+}
+
+.size{
+	width: 70px;
+}
+.email{
+	width: 20%;
+}
+
+ul{
+	list-style: none;
+}
+
+body h1{
+	color: black;
+}
+
+ul li{
+	float: left;
+	padding: 7px 20px;
+}
+
+nav a i{
+	margin :5px;
+}
+
+li a{
+	font-family: calibri;
+	font-weight: bold;
+	color: #b2c3ff;
+	text-decoration: none;
+}
+
+li a:hover{
+	border-style: 1px solid darkolivegreen;
+	color: #fceca6;
+}
+
+li:hover{
+	background-color: #a1a4a8;
+  
+}
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+h1{
+	margin: 10px;
+}
+
+header .insta{
+	color: #BE307C;
+}
+
+.twitter {
+	color: #55aded;
+}
+
+.linked{
+	color: #0077B5;
+}
+
+.facebook{
+	color: #3B5998;
+}
+.google{
+	color: #DC4E41;
+}
+.pinterest{
+	color: #E60023;
+}
+
+footer{
+	margin-left:2.9%;
+}

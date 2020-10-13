@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/ico" href="image.png" />
+	<link href="https://fonts.googleapis.com/css?family=Just+Another+Hand" rel="stylesheet">
+</head>
+<title>My Tour Booking</title>
+	<body>
+	<header>
+		<nav>
+		<a class="logo" href="index.html"><i class="fas fa-plane-departure fa-2x"></i></a>
+		<ul>
+		<li><a href="about.html">About Us</a></li>
+		<li><a href="tours.html">Our Tours</a></li>
+		<li><a href="deals.html">Tour Package Deals</a></li>
+		<li><a href="gallery.html">Picture Gallery</a></li>
+		<li><a href="people.html">Our People</a></li>
+		<li><a href="testimonials.html">Testimonials</a></li>
+		<li><a href="partners.html">Travel Partners</a></li>
+		<li><a href="booking.html">My Tour Bookings</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+		<li><a href="references.html">References</a></li>
+		</ul>
+		</nav>
+
+	<h1 class="book"><br>My Tour Booking</h1>
+
+<form class="forms" action="http://jkorpela.fi/cgi-bin/echo.cgi" METHOD="POST">
+	<p>Passenger Contact Info</p>
+	<input placeholder="First" class="pad" type="text" name="FirstName" required>
+	<input placeholder="Last" class="pad" type="text" name="LastName" required>
+	<p> Phone </p> <input placeholder="### #### ####" class="pad" type="Number" name="Mobile" required>
+	<p> Address </p> <input placeholder="Street Address" class="pad" type="text" name="Address" required>
+	<input placeholder="Street Address 2" class="pad" type="text" name="Address">
+	<p> <input placeholder="City" class="pad" type="text" name="City" required>
+	<input placeholder="Region" class="pad" type="text" name="Region" required> </p>
+	<p><input placeholder="Postal/Zip Code" class="pad" type="text" name="Postal/Zip Code" required>
+	<select>
+  <option name="Nepal" value="Nepal">Nepal</option>
+  <option name="Australia" value="Australia">Australia</option>
+  <option name="America" value="America">America</option>
+  <option name="Spain" value="Spain">Spain</option>
+	</select>
+	</p>
+	<p> Email </p> <input class="pad" type="text" name="Email" required>
+
+	Destination <input class="pad" type="text" name="No. of Tickets" required>
+
+	<p> Prefered Hotel/Resort </p> <input class="pad" type="text" name="Prefered Hotel/Resort" required>
+
+	Number of Rooms <input class="pad" type="Number" name="No. of Rooms" required>
+
+	<p> Size of Group </p> <input class="pad" type="Number" name="Size of Group" required>
+
+	King/Double/Suite/Penthouse <input class="pad" type="text" name="King/Double/Suite/Penthouse" required>	
+
+	<p> Transportation To and From Hotel </p>
+	<input type="radio" name="Transportation To and From Hotel" value="Yes"> Yes <br>
+	<input type="radio" name="Transportation To and From Hotel" value="No"> No <br>
+
+	<p> Estimated Trip Amount </p> <input placeholder="USD 0.00" class="pad" type="text" name="Estimated Trip Amount" required>
+
+	<p> Is anyone travelling over the age of 55? </p>
+	<input type="radio" name="Is anyone travelling over the age of 55?" value="Yes"> Yes <br>
+	<input type="radio" name="Is anyone travelling over the age of 55?" value="No"> No <br>
+
+	<p> Does anyone travelling have a military background? </p>
+	<input type="radio" name="Does anyone travelling have a military background?" value="Yes"> Yes <br>
+	<input type="radio" name="Does anyone travelling have a military background?" value="No"> No <br>
+
+	<p> Special Instructions </p>
+	<textarea type="text" name="SpecialInstructions" rows="5" cols="50"> </textarea>
+
+	<p> Activities: Spa, Golf, Shows, etc.</p>
+	<textarea type="text" name="Activities: Spa, Golf, Shows, etc." rows="5" cols="50"> </textarea>
+	
+	<p> Include Travel Insurance</p>
+	<input type="radio" name="Include Travel Insurance"> Yes <br>
+	<input type="radio" name=" Include Travel Insurance"> No <br>
+	
+	<p> <button class="button" type="submit" value="Submit"> Book </button> </p>
+</form>
+	<a class="facebook" href="https://www.facebook.com/" ><i class="fab fa-facebook-square fa-3x"></i></a>
+	<a class="insta" href="https://www.instagram.com/" ><i class="fab fa-instagram fa-3x"></i></a>
+	<a class="twitter" href="https://www.twitter.com/" ><i class="fab fa-twitter-square fa-3x"></i></a>
+	<a class="linked" href="https://www.linkedin.com/" ><i class="fab fa-linkedin fa-3x"></i></a>
+	<a class="google" href="https://aboutme.google.com/u/0/?referer=gplus"><i class="fab fa-google-plus fa-3x"></i></a>
+	<a class="pinterest" href="https://www.pinterest.com.au"><i class="fab fa-pinterest fa-3x"></i></a>
+</header>
+	</body>
+
+</html>
